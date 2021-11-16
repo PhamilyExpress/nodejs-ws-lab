@@ -161,6 +161,7 @@ class GameScene extends Phaser.Scene {
         player.update();
         continue;
       }
+    }
 
     if (this.players[this.id]) {
       const player = this.players[this.id];
